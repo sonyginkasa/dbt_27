@@ -1,3 +1,4 @@
 vars:
   start_date: '2016-06-01'
   x: hello world
+  event_type: LOGIN
