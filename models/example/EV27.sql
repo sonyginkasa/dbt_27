@@ -1,0 +1,1 @@
+select '{{ env_var("DBT_DOMAIN", "DEFAULT_FROM_MODEL") }}' as source_schema
