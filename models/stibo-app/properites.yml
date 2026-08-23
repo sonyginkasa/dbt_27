@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: employee_source
+    database: KITTUDB
+    schema: KITTUSCHEMA
+
+    tables:
+      - name: emp_details
+
+models:
+  - name: EMP_DETAILS_RAW
+    description: "Raw employee data"
+    columns:
+      - name: emp_id
+        tests: [unique, not_null]
