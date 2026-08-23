@@ -1,2 +1,1 @@
-SELECT *
-FROM {{ source('employee_source', 'emp_details') }}
+select * from {{ source("employee_source", "emp_details") }}
