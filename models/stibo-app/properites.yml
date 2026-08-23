@@ -7,10 +7,11 @@ sources:
 
     tables:
       - name: emp_details
+      - name: customer_details
+        config:
+          freshness: 
+            warn_after: {count: 6, period: minute}
+            error_after: {count: 12, period: minute}
+          loaded_at_field: etl_loaded_at  
 
-models:
-  - name: EMP_DETAILS_RAW
-    description: "Raw employee data"
-    columns:
-      - name: emp_id
-        tests: [unique, not_null]
+
