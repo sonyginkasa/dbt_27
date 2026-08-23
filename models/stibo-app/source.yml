@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: employee_source
+    database: KITTUDB
+    schema: KITTUSCHEMA
+
+    tables:
+      - name: emp_details
