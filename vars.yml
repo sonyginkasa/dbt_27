@@ -3,3 +3,4 @@ vars:
   x: hello world
   event_type: LOGIN
   domain: '{{ env_var("DBT_DOMAIN") }}'
+  row_limit: 999
