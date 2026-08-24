@@ -14,3 +14,9 @@ sources:
             error_after: {count: 2, period: day}
           loaded_at_field: etl_loaded_at  
 
+models:
+  - name: version_model
+    latest_version: 2
+    versions:
+      - v: 2
+      - v: 1
