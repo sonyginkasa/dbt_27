@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: employee_source
+    database: KITTUDB
+    schema: KITTUSCHEMA
+
+    tables:
+      - name: emp_details
+      - name: customer_details
+        config:
+          freshness: 
+            warn_after: {count: 1, period: day}
+            error_after: {count: 2, period: day}
+          loaded_at_field: etl_loaded_at  
+
