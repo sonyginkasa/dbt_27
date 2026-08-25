@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: ORDERS_SOURCE
+    database: KITTUDB
+    schema: DBT_SCHEMA
+
+    tables:
+      - name: RAW_ORDERS
+
+
