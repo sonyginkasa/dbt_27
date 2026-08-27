@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: EVENTS_SOURCE
+    database: KITTUDB
+    schema: DBT_SCHEMA
+    tables:
+      - name: RAW_EVENTS
+        config:
+          event_time: event_occurred_at
