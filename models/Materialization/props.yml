@@ -1,11 +1,10 @@
 version: 2
 
 sources:
-  - name: ORDERS_SOURCE
+  - name: EVENTS_SOURCE
     database: KITTUDB
     schema: DBT_SCHEMA
-
     tables:
-      - name: RAW_ORDERS
-
-
+      - name: RAW_EVENTS
+        config:
+          event_time: event_occurred_at
