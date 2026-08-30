@@ -1,1 +1,0 @@
-select '{{ target.name }}' as current_target

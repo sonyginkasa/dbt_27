@@ -1,1 +1,0 @@
-select '{{ var("event_type") }}' as event_type

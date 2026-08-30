@@ -1,1 +1,0 @@
-select 'version1' as ver1
