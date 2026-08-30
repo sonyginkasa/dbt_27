@@ -1,1 +1,0 @@
-select '{{ var("domain") }}' as source_schema

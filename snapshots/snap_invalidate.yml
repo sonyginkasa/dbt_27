@@ -1,0 +1,9 @@
+snapshots:
+  - name: snap_invalidate
+    relation: source('kittu', 'snap_src')
+    config:
+      schema: snapshots
+      unique_key: emp_id
+      strategy: check
+      check_cols: [department, salary]
+      hard_deletes: invalidate

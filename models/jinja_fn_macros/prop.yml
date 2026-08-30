@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: EVENTS_SOURCE2
+    database: KITTUDB
+    schema: KITTUSCHEMA
+    tables:
+      - name: EMPLOYEE_DATA

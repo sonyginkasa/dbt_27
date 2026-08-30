@@ -1,0 +1,6 @@
+sources:
+  - name: kittu
+    database: KITTUDB
+    schema: KITTUSCHEMA
+    tables:
+      - name: snap_src
