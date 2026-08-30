@@ -1,0 +1,2 @@
+SELECT *
+FROM {{ source('SRC1', 'CUSTOMER_DETAILS') }}
