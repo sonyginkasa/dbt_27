@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: SRC1
+    database: KITTUDB
+    schema: KITTUSCHEMA
+
+    tables:
+      - name: CUSTOMER_DETAILS
+      - name: EMPLOYEE
+      - name: EMPLOYEES
