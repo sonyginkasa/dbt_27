@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: kittu
-    database: KITTUDB
-    schema: KITTUSCHEMA
-    tables:
-      - name: employee_data
